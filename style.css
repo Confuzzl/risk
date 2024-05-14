@@ -1,0 +1,12 @@
+.roulette {
+    width: 50vmin;
+    height: 50vmin;
+    border-radius: 50%;
+    background-image: conic-gradient(green var(--size), red 0);
+    transition: transform 5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    transform: rotateZ(0deg);
+}
+
+.roulette:hover {
+    transform: rotateZ(3600deg);
+}
